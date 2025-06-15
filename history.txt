@@ -1,0 +1,228 @@
+    1  ssh itch-s
+    2  cd
+    3  cat .shh/id_ed25519.pub
+    4  cat .ssh/id_ed25519.pub
+    5  pwd
+    6  cd
+    7  mkdir Linux
+    8  cd Linux/
+    9  echo "# Linux" >> README.md
+   10  ls -al
+   11  git init 
+   12  pwd
+   13  ls -al
+   14  trer
+   15  tree
+   16  ls -aR
+   17  git status
+   18  git add README.md 
+   19  git status
+   20  git add .
+   21  git cimmit -m  "first commit"
+   22  git commit -m  "first commit"
+   23  git commit -m "first commit"
+   24  git commit -m "added file README"
+   25  git branch -M main
+   26  git config --global user.email "gelikxa8848@gmail.com"
+   27  git config --global user.name "MarkSkylake"
+   28  rgit remote -v
+   29  git config --global user.email "chucha1204@gmail.com"
+   30  rgit remote -v
+   31  git remote -v
+   32  ssh itch-s
+   33  ssh itic-s
+   34  ssh itch-s
+   35  ssh itch-s
+   36  ssh itch-s
+   37  cd C:/usr/
+   38  cd C:/User
+   39  mkdir git-conflict-demo
+   40  ls -al
+   41  cd git-conflict-demo/
+   42  git init
+   43  echo "Hello Worldgit init!" >> file.txt
+   44  git status 
+   45  git add .
+   46  git status
+   47  git commit -m "init: добавлен приветственный текст"
+   48  git checkout -b feature
+   49  echo "эта строка добавлена в ветке feature" >> file.txt
+   50  git status 
+   51  git add .
+   52  git status
+   53  git commit -m "добавлена строка в ветке feature"
+   54  git branch 
+   55  git checkout master 
+   56  echo "эта строка добавлена в ветке main"
+   57  git commit -m "добавлена строка в ветке main"
+   58  git merge feature 
+   59  git status 
+   60  git commit -m "добавлена строка в ветке master"
+   61  nano file.txt 
+   62  echo "эта строка добавлена в ветке main" >> file.txt 
+   63  git commit -m "добавлена строка в ветке master"
+   64  git status 
+   65  nano file.txt 
+   66  nano file.txt 
+   67  git add .
+   68  git status 
+   69  git commit -m "merge: resolved conflict between master and feature"
+   70  git log
+   71  git log --oneline
+   72  git log --oneline --graph
+   73  git log --oneline --graph
+   74  git reset -hard HEAD~1
+   75  git reset --hard HEAD~1
+   76  git log
+   77  git checkout feature 
+   78  git rebase master 
+   79  nano file.txt
+   80  git add .
+   81  git status
+   82  git branch 
+   83  tar --help
+   84  ssh itch-s
+   85  cd
+   86  git clone git@github.com:MarkSkylake/git-PR.git
+   87  cd git-PR
+   88  ls -al
+   89  git remote -v 
+   90  git remote add upstrem 
+   91  git remote add upstrem 
+   92  git remote add upstream 
+   93  git remote add upstream https://github.com/iohichu/git-PR.git
+   94  git remote -v 
+   95  git merge upstream/main
+   96  git merge upstream/main
+   97  ls -la
+   98  git checkout main
+   99  git checkout main
+  100   git checkout maingit merge upstream/main
+  101  ssh itch-s
+  102  cd
+  103  mkdir git-merge-test
+  104  cd git-merge-test/
+  105  git init .
+  106  echo "this is some content to mess with" > merge.txt
+  107  git add .
+  108  git commit -m "we are commiting the inital content"
+  109  git checkout -b new_branch_to_merge_later
+  110  git branch
+  111  echo "totally different content to merge later" > merge.txt
+  112  git commit -am "edited the content of merge.txt to cause a conflict"
+  113  git checkout master 
+  114  echo "content to append" >> merge.txt
+  115  git commit -am "appended content to merge.txt"
+  116  git merge new_branch_to_merge_later 
+  117  git status 
+  118  nano merge.txt 
+  119  git status 
+  120  git commit -am "done"
+  121  git status 
+  122  cat merge.txt 
+  123  git log
+  124  git log —oneline —graph
+  125  git log -—oneline -—graph
+  126  git log -—oneline -—graph
+  127  git log  --graph
+  128  git log --oneline --graph
+  129  ls -al
+  130  cron
+  131  cd Desktop/
+  132  mkdir GiT
+  133  cd GiT/
+  134  cd git_team_work
+  135  mkdir git_team_work
+  136  cd git_team_work
+  137  git clone git@github.com:MarkSkylake/git_team_work.git
+  138  cd
+  139  cd git_team_work
+  140  mkdir git_team_work
+  141  git clone git@github.com:MarkSkylake/git_team_work.git
+  142  cd git_team_work/
+  143  git status
+  144  git remote -v
+  145  git remote add upstream https://github.com/MarkSkylake/git_team_work.git
+  146  git remote -v
+  147  ls -al
+  148  git fetch upstream
+  149  git status 
+  150  git merge upstream/main
+  151  ls - al
+  152  ls -al
+  153  git fetch upstream
+  154  git merge upstream/main
+  155  ls -al
+  156  git rebase upstream/main
+  157  cd 
+  158  cd Desktop/
+  159  mkdir git_photo
+  160  ls -al
+  161  cd git_photo/
+  162  git init 
+  163  git branch -M main
+  164  ls -al
+  165  git add .
+  166  git commit "added photo"
+  167  git commit -m "added photo"
+  168  git push -u origin main
+  169  git push
+  170  git remote add origin git@github.com:/git_photo.git
+  171  git push -u origin main
+  172  git remote add origin git@github.com:greedych/git_photo.git
+  173  ls -al
+  174  git add .
+  175  git remote add origin git@github.com:greedych/git_photo
+  176  git remote -v
+  177  git remote remove origin 
+  178  git remote add origin git@github.com:greedych/git_photo
+  179  git push -u origin main
+  180  exit 
+  181  cd
+  182  cd Desktop/
+  183  mkdir git-branch
+  184  cd git-branch/
+  185  git init 
+  186  git commit -m "first"
+  187  git add .
+  188  git commit -m "first"
+  189  git branch -M main
+  190  git remote -v
+  191  git checkout -b gitignore
+  192  >> .gitignore
+  193  ls -al
+  194  **logs/debug.log >> .gitignore 
+  195  echo "**logs/debug.log" >> .gitignore 
+  196  cat .gitignore 
+  197  git add .
+  198  git add .gitignore 
+  199  git commit -m "added .gitignore file"
+  200  git remote add origin git@github.com:greedych/git-branch.git
+  201  git push -u origin gitignore 
+  202  cd
+  203  ssh -itch -s
+  204  ssh -itch s
+  205  ssh -itch -s
+  206  ssh -ich
+  207  ssh -itch -s
+  208  ssh itch -s
+  209  ssh itch-s
+  210  cd Desktop/
+  211  git clone git@github.com:greedych/git_merge_rebase.git
+  212  cd git_merge_rebase/
+  213  ls -al
+  214  git checkout -b feature
+  215  >> README.md
+  216  echo "тестовые изменения в feature" >> README.md 
+  217  echo "logs/debug.log" >> .gitignore 
+  218  git add .
+  219  git add .gitignore README.md 
+  220  git commit -m "edit README.md and .gitignore"
+  221  git push -u origin feature 
+  222  git commit --amend 
+  223  git commit --amend 
+  224  git push -f
+  225  git checkout main 
+  226  git pull origin main
+  227  git merge feature 
+  228  history >> history.txt 
